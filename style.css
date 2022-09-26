@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fisherman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(122, 122, 122, 0.5);
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+}
+.header{
+    padding: 6rem 2rem 4rem 2rem;
+}
+.header h1{
+    font-size: 4rem;
+    text-shadow: 5px 3px rgba(7, 82, 7, 0.5);
+}
+.header input{
+    width: 100%;
+    padding: 10px;
+    background:rgb(12, 99, 99, 0.7);
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-style: bold;
+    
+}
+.city{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+.temp{
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+.desc{
+    font-size: 27px;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+.minmax{
+    font-size: 23px;
+    margin-bottom: 2rem;
+}
